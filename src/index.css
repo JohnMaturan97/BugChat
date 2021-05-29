@@ -19,7 +19,7 @@
 .nav-bar {
   width: 100%;
   height: 66px;
-  background-color: #002766;
+  background-color: #2068f0;
 }
 
 .logo-tab {
@@ -28,14 +28,14 @@
   top: 12px;
   font-size: 32px;
   font-weight: 700;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .logout-tab {
   position: absolute;
   top: 22px;
   right: 22px;
-  color: white;
+  color: rgb(255, 255, 255);
   cursor: pointer;
 }
 
@@ -45,14 +45,20 @@
 }
 
 /* Login Page */
+.body{
+  background: cover;
+}
 
 #login-page {
-  background-image: linear-gradient(#40a9ff, #096dd9);
   position: absolute;
   top: 0px;
   bottom: 0px;
   left: 0px;
   right: 0px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQICWciHBkT8KZDeT5uFZLqPSv9E0D4AoUBFGkEyk68OfKiX1H3AU1I8AQyGcYB8BdHQMc&usqp=CAU');
+  background: cover;
+  
+
 }
 
 #login-card {
@@ -63,24 +69,24 @@
   padding-bottom: 66px;
   width: 420px;
   text-align: center;
-  background-color: white;
+  background-color: rgb(56, 117, 231);
   border-radius: 22px;
 }
 
 .login-button {
   cursor: pointer;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 12px;
   border-radius: 8px;
   display: inline-block;
 }
 
 .facebook {
-  background-color: #3b5998;
+  background-color: #2f5ec4;
 }
 
 .google {
-  background-color: #4285f4;
+  background-color: #b44646;
   color: white;
 }
 
